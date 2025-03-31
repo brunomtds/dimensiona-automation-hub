@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react';
 import Countdown from '@/components/Countdown';
 import RegistrationForm from '@/components/RegistrationForm';
@@ -35,7 +36,7 @@ const Index: React.FC = () => {
       <section id="hero" className="hero-gradient pt-20 pb-16 md:pt-24 md:pb-24">
         <div className="section-container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-            <div className="order-2 lg:order-1">
+            <div className="order-1 lg:order-1">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 animate-fade-in">
                 <span className="text-dimensiona-red">🔥</span> AVCB muito mais rápido e fácil
               </h1>
@@ -53,7 +54,7 @@ const Index: React.FC = () => {
               </div>
             </div>
             
-            <div className="order-1 lg:order-2 flex flex-col items-center">
+            <div className="order-2 lg:order-2 flex flex-col items-center">
               <div className="bg-white rounded-xl shadow-lg p-4 w-full max-w-lg mb-8">
                 <div className="aspect-video bg-dimensiona-lightgray rounded-lg flex items-center justify-center mb-3">
                   <p className="text-dimensiona-gray text-center p-4">
