@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Countdown from '@/components/Countdown';
 import RegistrationForm from '@/components/RegistrationForm';
@@ -33,7 +32,7 @@ const Index: React.FC = () => {
       <FloatingCTA />
 
       {/* Hero Section */}
-      <section id="hero" className="hero-gradient pt-32 pb-16 md:pt-40 md:pb-24">
+      <section id="hero" className="hero-gradient pt-20 pb-16 md:pt-24 md:pb-24">
         <div className="section-container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div className="order-2 lg:order-1">
