@@ -97,12 +97,12 @@
   }
 
   body {
-    @apply bg-white text-dimensiona-dark-gray;
+    @apply bg-white text-dimensiona-dark-gray font-sans;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-bold;
+    @apply font-bold font-sans;
   }
 }
 
